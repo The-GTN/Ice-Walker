@@ -1,7 +1,7 @@
 # Ice-Walker
 My first project with graphic interface
-
 To open the project, launch the file 'src/Pygame.py'
+Here the prezi presentation of the project : https://prezi.com/view/PyQ2bZNDxNOCgjLu5NoI/
 
 ## How to play
 
