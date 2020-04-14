@@ -4,7 +4,7 @@
 
 from pygame import init # désolé, ça affichera forcément ce message...
 from pygame import QUIT, MOUSEBUTTONDOWN, KEYDOWN, FULLSCREEN, K_q,K_a, K_b, K_SPACE, K_RETURN, K_UP, K_DOWN, K_RIGHT, K_LEFT, K_BACKSPACE, K_DELETE, K_ESCAPE, quit
-from pygame.display import set_caption, set_mode, flip
+from pygame.display import set_caption, set_mode, flip, set_icon
 from pygame.mixer import music, pre_init
 from pygame.event import get
 from pygame.draw import line
@@ -38,6 +38,11 @@ def start():
     ############## On crée la fenêtre pygame avec sa taille ###############
     surface = (500,520)
     window = set_mode(surface,FULLSCREEN)
+    #######################################################################
+    
+    ############## On crée la fenêtre pygame avec sa taille ###############
+    icon_32x32 = load("images/Ice/case_final1.png")
+    set_icon(icon_32x32)
     #######################################################################
     
     ################# On charge les images de l'animation #################
